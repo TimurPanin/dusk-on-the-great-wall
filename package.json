@@ -2,7 +2,16 @@
   "name": "legend-of-the-red-dragon",
   "private": true,
   "version": "0.1.0",
+  "description": "Retro-style browser pixel action game prototype built with Phaser 3, TypeScript and Vite.",
   "type": "module",
+  "keywords": [
+    "phaser",
+    "typescript",
+    "vite",
+    "pixel-art",
+    "browser-game",
+    "game-development"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc && vite build",
