@@ -15,7 +15,7 @@ export class MenuScene extends Phaser.Scene {
     this.drawCartridgeFrame();
 
     this.add
-      .text(GAME_WIDTH / 2, 50, 'LEGEND OF THE', {
+      .text(GAME_WIDTH / 2, 50, 'DUSK ON THE', {
         fontFamily: 'monospace',
         fontSize: '10px',
         color: '#d4a017',
@@ -23,7 +23,7 @@ export class MenuScene extends Phaser.Scene {
       .setOrigin(0.5);
 
     this.add
-      .text(GAME_WIDTH / 2, 68, 'RED DRAGON', {
+      .text(GAME_WIDTH / 2, 68, 'GREAT WALL', {
         fontFamily: 'monospace',
         fontSize: '14px',
         color: '#f5e6c8',
@@ -32,7 +32,7 @@ export class MenuScene extends Phaser.Scene {
       .setOrigin(0.5);
 
     this.add
-      .text(GAME_WIDTH / 2, 100, '© 1994 RED DRAGON SOFTWARE', {
+      .text(GAME_WIDTH / 2, 100, 'RETRO ACTION PROTOTYPE', {
         fontFamily: 'monospace',
         fontSize: '6px',
         color: '#8b1a1a',
