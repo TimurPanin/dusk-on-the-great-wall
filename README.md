@@ -2,13 +2,13 @@
 
 A small browser-based pixel action game prototype built with **Phaser 3, TypeScript and Vite**.
 
-The project focuses on game-loop structure, combat, enemy behaviour, procedural pixel-art generation and a compact retro-style UI rather than external art assets.
+The project focuses on game-loop structure, combat, enemy behavior, procedural pixel-art generation and a compact retro-style UI rather than external art assets.
 
-## Current status
+## Status
 
-**Prototype / work in progress.**
+**Prototype - work in progress.**
 
-The repository currently contains one playable level with a start menu, side-scrolling gameplay, several enemy types, collectibles, a boss encounter, game-over flow and a victory screen.
+The repository currently contains one playable level with a start menu, side-scrolling gameplay, several enemy types, collectibles, a boss encounter, a Game Over flow and a victory screen.
 
 ## Features
 
@@ -17,7 +17,7 @@ The repository currently contains one playable level with a start menu, side-scr
 - Player movement with jump buffering and coyote time
 - Melee attacks and charged spirit projectile
 - HP and lives system with temporary invincibility after damage
-- Three regular enemy behaviours:
+- Three regular enemy types:
   - Flying Demon
   - Hellhound
   - Imp
@@ -38,14 +38,14 @@ The repository currently contains one playable level with a start menu, side-scr
 | Melee attack | Tap `X` or `K` |
 | Spirit blast | Hold and release `X` or `K` |
 | Mute | `M` |
-| Start / confirm | `Enter` |
+| Start or confirm | `Enter` |
 
 ## Tech stack
 
 - **TypeScript**
 - **Phaser 3**
 - **Vite**
-- **Arcade Physics**
+- **Phaser Arcade Physics**
 - **Canvas** for generated textures
 - **Web Audio API** for generated sound effects
 
@@ -56,7 +56,7 @@ src/
 ├── entities/           # Player, boss, projectile and enemies
 ├── game/               # Phaser configuration and shared constants
 ├── levels/             # Level layout and spawn data
-├── scenes/             # Boot, menu, gameplay, HUD, game over and victory
+├── scenes/             # Boot, menu, gameplay, HUD, Game Over and victory
 ├── systems/            # Combat, parallax and visual feedback systems
 ├── utils/              # Texture generation and sound effects
 └── main.ts             # Application entry point
@@ -85,4 +85,4 @@ npm run preview
 
 ## Notes
 
-Most visual assets are generated at runtime in `TextureGenerator.ts`, while sound effects are synthesized in `SfxManager.ts`. This keeps the prototype self-contained and makes the rendering/audio implementation visible directly in the source code.
+Most visual assets are generated at runtime in `TextureGenerator.ts`, while sound effects are synthesized in `SfxManager.ts`. This keeps the prototype self-contained and makes the rendering and audio implementation visible directly in the source code.
