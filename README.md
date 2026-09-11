@@ -1,4 +1,4 @@
-# Legend of the Red Dragon
+# Dusk on the Great Wall
 
 A small browser-based pixel action game prototype built with **Phaser 3, TypeScript and Vite**.
 
