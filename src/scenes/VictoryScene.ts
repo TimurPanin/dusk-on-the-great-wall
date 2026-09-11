@@ -31,7 +31,7 @@ export class VictoryScene extends Phaser.Scene {
       .setOrigin(0.5);
 
     this.add
-      .text(GAME_WIDTH / 2, 90, 'The Red Dragon is vanquished.\nWisdom prevails.', {
+      .text(GAME_WIDTH / 2, 90, 'The Great Wall is safe for now.\nWisdom prevails.', {
         fontFamily: 'monospace',
         fontSize: '7px',
         color: '#f5e6c8',
